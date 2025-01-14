@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head id="head">
+    <!-- from separate page -->
+    <meta name="description" content="This is Bata Shoe Store">
+    <title>Contacts</title>
+
+     <!-- External JavaScript libraries -->
+      
+     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script> <!-- jQuery library -->
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+     <script type="text/javascript" src="./js/script.js"></script> 
+     
+</head>
+<!-- this is my body -->
+<body class="body_tag">
+<!-- import the code from header.html through html -->
+    <header id="header"></header>
+    <main>
+        <section class="Contact_container">
+            <!-- mapstart -->
+<!--             here is my google map i see some youtube videos and did it just went to map and use iframe embeded that  -->
+            <div id="contact_map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2850.0160387932356!2d-79.67168442430025!3d44.41231660300481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882aa3723e3232f1%3A0xe6be031a81155c65!2sGeorgian%20College!5e0!3m2!1sen!2sin!4v1722273940391!5m2!1sen!2sin" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <!-- map end -->
+             <!-- ask information section-->
+<!--             this is where user will input there name email and questions though we dont have the nxt page file like from where we can add store the request -->
+            <div id="contact_askInformation">
+                <div id="contact_information_logo">
+                    <img src="./img/contact_information_logo.png" alt="contact_information_logo">
+                </div>
+                <div class="contact-form">
+                    <h2>Get in touch!</h2>  
+                    <form> 
+<!--                         so this is a question form -->
+<!--                         here this will be asking three questen and the code is sef explanatory so i an not comenting in all of them -->
+<!--                         so i put name and email in same div so they can be in a row and theire boxes will be on a bottom of them thats why there is a separate div -->
+                        <div id="contact-form-name">
+                        <div>
+                        <label for="contact_form_name">Your Name:</label>  
+                        <input type="text" id="contact_form_name" name="name" required>  
+                        </div>
+                        <div>
+                        <label for="contact_form_email">Your Email:</label>  
+                        <input type="email" id="contact_form_email" name="email" required>  
+                        </div> 
+                        </div>
+<!--                         this is asking questions -->
+                        <label for="contact_form_subject">Your Question:</label>  
+                        <input type="text" id="contact_form_subject" name="subject" required>  
+<!--                 user will enter their comment here -->
+                        <label for="contact_form_message">Your Comment:</label>  
+                        <textarea id="contact_form_message" name="message" rows="4" required></textarea>  
+<!--                 this button is just show it will do nothing -->
+                        <button type="submit">Send Message</button>  
+                    </form>  
+    
+                </div>
+            </div>
+            <!-- ask information end -->
+    
+            <div class="contact-info"> 
+<!--                 so here contact info have phone email and location -->
+                <div class="contact-item"> 
+<!--                     i have added transparent logo here -->
+                    <img src="./img/telephone.png" alt="phone icon">
+<!--                     cetagory name -->
+                    <h3>Phone</h3>   
+<!--                     some talks about this part like what to do -->
+                    <p>Contact us for any inquiries or assistance. We're here to help!</p> 
+<!--                     here is the phone number we just pus something just like that its not a real number -->
+                    <p id="contact-info_phone">+162 534-468-854</p>  
+                </div>  
+<!--                 i an no explaing the things again its the same format as phone -->
+                <div class="contact-item">  
+                    <img src="./img/mail.png" alt="email icon">
+                    <h3>Email</h3>  
+                    <p>Reach out via email for support or information. We look forward to hearing from you!</p> 
+                    <a href="mailto:contact@example.com">contact@example.com</a> 
+     
+                </div>  
+ <!--                 i an no explaing the things again its the same format as phone -->
+
+                <div class="contact-item">  
+                    <img src="./img/placeholder.png" alt="location icon">
+                    <h3>Location</h3>  
+                    <p>1 Georgian Dr, Barrie, ON L4M 3X9, Canada.</p>  
+                    <a href="https://www.google.com/maps" target="https://www.google.com/maps/place/Georgian+College/@44.4123166,-79.6716844,17z/data=!3m1!5s0x882aa372366bb6a5:0xaf35d738add2f7cd!4m15!1m8!3m7!1s0x882aa3723e3232f1:0xe6be031a81155c65!2sGeorgian+College!8m2!3d44.4123128!4d-79.6691095!10e1!16zL20vMDRobWp5!3m5!1s0x882aa3723e3232f1:0xe6be031a81155c65!8m2!3d44.4123128!4d-79.6691095!16zL20vMDRobWp5?hl=en&entry=ttu">View on Google map</a>
+                </div>  
+            </div>  
+    
+        </section>
+    
+    </main>
+<!--     footer will from footer html through js -->
+    <footer class="footer-section"></footer>
+
+</body>
+</html>
