@@ -8,6 +8,8 @@ Product Pages: Six product pages, showcasing shoes for men, women, and kids.
 Product List Page: A comprehensive overview of all available products.
 Essential Sections: Includes an About Us page and a Contact Us page for a complete browsing experience.
 Wireframe Design: The website structure and layout were planned and designed using Figma, and the wireframe PDF is included in the root folder.
+
+
 **Key Features**
 Responsive Design: Ensures seamless functionality across devices.
 Global Navigation: Consistent header, footer, and breadcrumb navigation for easy access.
